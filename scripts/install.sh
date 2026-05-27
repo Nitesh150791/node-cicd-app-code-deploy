@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/ubuntu/app
+cd /home/ec2-user/app
 sudo yum install -y nodejs
 npm install
 
