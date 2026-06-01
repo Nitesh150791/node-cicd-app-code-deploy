@@ -1,8 +1,8 @@
 {
-  "name": "node-app",
+  "name": "cicd-demo",
   "version": "1.0.0",
-  "dependencies": {
-    "express": "^4.18.2"
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
   }
 }
-
