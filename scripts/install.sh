@@ -1,6 +1,3 @@
 #!/bin/bash
-
-echo "Installing Node.js"
-curl -fsSL https://rpm.nodesource.com/setup_18.x | bash -
-yum install -y nodejs
-``
+cd /home/ec2-user/app
+npm install
