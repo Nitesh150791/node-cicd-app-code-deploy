@@ -1,11 +1,10 @@
-const http = require('http');
+const http = require("http");
 
 const PORT = 3000;
 
-const server = http.createServer((req, res) => {
-    res.end("Hello from CI/CD Pipeline 🚀");
-});
+http.createServer((req, res) => {
+  res.writeHead(200);
+  res.end("Hello from CI/CD Pipeline 🚀");
+}).listen(PORT);
 
-server.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-});
+console.log(`Server running on port ${PORT}`);

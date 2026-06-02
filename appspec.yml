@@ -6,12 +6,10 @@ files:
     destination: /home/ec2-user/app
 
 hooks:
-  ApplicationStop:
-    - location: scripts/stop.sh
-
-  BeforeInstall:
+  AfterInstall:
     - location: scripts/install.sh
+      timeout: 300
 
   ApplicationStart:
     - location: scripts/start.sh
-
+      timeout: 300
