@@ -53,7 +53,7 @@ const server = http.createServer((req, res) => {
         <body>
           <div class="container">
             <h1>🚀 CI/CD Pipeline Deployed</h1>
-            <p>Hello Nitesh 👋</p>
+            <p>Hello Sourav 👋</p>
             <p>Application successfully deployed using AWS</p>
             <p><strong>Environment:</strong> ${ENV}</p>
             <p><strong>Server:</strong> ${os.hostname()}</p>
